@@ -57,4 +57,26 @@ hr{
 span a{
     text-decoration: none;
 }
+/* responsive  */
+/* for mobile */
+@media screen and (max-width: 576px) {
 
+    .players, .blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    
+}
+h2{
+    margin-left: 70px;
+}
+.player, .blog{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.blog h3,p{
+    margin-left: 55px;
+}
+}
